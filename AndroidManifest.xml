@@ -2802,6 +2802,9 @@
                        android:value="com.android.settings.cyanogenmod.LiveLockScreenSettings" />
         </activity>
 
+        <activity android:name=".temasek.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name=".temasek.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"
             android:authorities="com.android.settings"
