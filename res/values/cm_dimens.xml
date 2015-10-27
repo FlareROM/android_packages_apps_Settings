@@ -25,4 +25,7 @@
 
     <!-- Dashboard Category Margin Bottom -->
     <dimen name="dashboard_category_margin_bottom">8dip</dimen>
+
+    <!-- Shortcur picker -->
+    <dimen name="shortcut_picker_left_padding">40dip</dimen>
 </resources>
