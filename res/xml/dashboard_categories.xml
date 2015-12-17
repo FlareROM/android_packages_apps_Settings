@@ -126,6 +126,18 @@
                 <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
             </intent>
         </dashboard-tile>
+
+       <!-- Viper4Android -->
+       <dashboard-tile
+           android:id="@+id/viper_settings"
+           android:title="@string/viper_settings_title"
+           android:summary="@string/viper_summary"
+           android:icon="@drawable/ic_bliss_equalizer" >
+           <intent
+              android:action="android.intent.action.MAIN"
+              android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android"
+              android:targetPackage="com.vipercn.viper4android_v2" />
+       </dashboard-tile>
 		
 		<!-- SuperSU -->
         <dashboard-tile
