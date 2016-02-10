@@ -5,6 +5,16 @@
     <!-- FlareROM Settings -->
     <string name="temasek_settings_title">FlareROM Settings</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
     <!-- Lock clock -->
     <string name="lock_clock_title">Clock widget</string>
     <string name="lock_clock_summary">View or change how the \'cLock\' Home  widget will display</string>
