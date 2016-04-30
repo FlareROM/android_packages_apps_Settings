@@ -644,5 +644,21 @@
     <string name="dim_nav_buttons_touch_anywhere_title">Listen for touches on entire screen</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_on">Touching anywhere on the screen will cause buttons to un-dim</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_off">Only touches on the navbar will cause buttons to un-dim</string>
+    
+    <!-- About FlareROM -->
+    <string name="about_crdroid">FlareROM 정보</string>
+    
+    <!-- Share FlareROM -->
+    <string name="share_crdroid_title">FlareROM 공유</string>
+    <string name="share_crdroid_summary">FlareROM을 알려주세요</string>
+    <string name="share_message">FlareROM HOMEPAGE : http://www.flarerom.pe.hu</string>
+    <string name="share_chooser_title">FlareROM 공유</string>
+    
+    <!-- Sites FlareROM -->
+    <string name="sites_crdroid">사이트 모음</string>
+    <string name="crdroid_source_title">Github</string>
+    <string name="crdroid_source_summary">http://www.github.com/FlareROM</string>
+    <string name="crdroid_google_plus_title">Homepage</string>
+    <string name="crdroid_google_plus_summary">http://www.flarerom.pe.hu</string>
 
 </resources>

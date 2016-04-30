@@ -21,6 +21,11 @@
                           android:enabled="false"
                           android:layout="@layout/flarerom_logo_row" />
                           
+        <!-- About FlareROM -->
+        <PreferenceScreen android:key="about"
+            android:title="@string/about_crdroid"
+            android:fragment="com.android.settings.crdroid.About" />
+        
         <!-- FlareROM version -->
         <Preference android:key="mod_version"
             style="?android:preferenceInformationStyle"
