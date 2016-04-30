@@ -20,6 +20,12 @@
    <PreferenceScreen android:key="flarerom_logo"
                           android:enabled="false"
                           android:layout="@layout/flarerom_logo_row" />
+                          
+        <!-- FlareROM version -->
+        <Preference android:key="mod_version"
+            style="?android:preferenceInformationStyle"
+            android:title="@string/mod_version"
+            android:summary="@string/mod_version_default" />
 
         <!-- Bliss Extra Info -->
         <PreferenceScreen android:key="extrainfo"
