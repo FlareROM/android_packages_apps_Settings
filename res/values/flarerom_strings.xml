@@ -30,5 +30,10 @@
     <string name="crdroid_source_summary">http://www.github.com/FlareROM</string>
     <string name="crdroid_google_plus_title">Homepage</string>
     <string name="crdroid_google_plus_summary">http://www.flarerom.pe.hu</string>
+    
+    <!-- Change Log -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title_summary">View recent changes in ROM</string>
+    <string name="changelog_error">Unable to load changelog</string>
 
 </resources>

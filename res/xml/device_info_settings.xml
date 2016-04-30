@@ -31,6 +31,12 @@
             style="?android:preferenceInformationStyle"
             android:title="@string/mod_version"
             android:summary="@string/mod_version_default" />
+            
+        <!-- Change Log -->
+        <PreferenceScreen android:key="changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_title_summary"
+            android:fragment="com.android.settings.flarerom.ChangeLog" />
 
         <!-- Bliss Extra Info -->
         <PreferenceScreen android:key="extrainfo"
