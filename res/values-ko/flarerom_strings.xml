@@ -669,5 +669,9 @@
     <!-- Devices and Maintainers -->
     <string name="device_maintainers_title">디바이스와 메인테이너</string>
     <string name="device_maintainers_title_summary">지원기기와 FlareROM의 메인테이너가 표시됩니다.</string>
+    
+    <!-- Thanks to -->
+    <string name="thanks_to_title">Credits(크레딧)</string>
+    <string name="thanks_to_title_summary">FlareROM 제작에 도움을 주신 분들입니다.</string>
 
 </resources>

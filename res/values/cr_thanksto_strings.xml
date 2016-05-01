@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Copyright (C) 2015 crDroid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- TEAM -->
+    <string name="thanksto_category_team_title">TEAM</string>
+
+    <!-- TEAM LIST -->
+    <string name="thanksto_category_team_cyanogenmod">Cyanogenmod</string>
+    <string name="thanksto_category_team_cyanogenmod_summary">http://www.cyanogenmod.org</string>
+    <string name="thanksto_category_team_blissrom">BlissROM</string>
+    <string name="thanksto_category_team_blissrom_summary">http://www.BlissROM.com</string>
+    <string name="thanksto_category_team_cyanpop">Cyanpop</string>
+    <string name="thanksto_category_team_cyanpop_summary">http://www.cyanpop.github.io</string>
+    <string name="thanksto_category_team_crdroid">crDroid</string>
+    <string name="thanksto_category_team_crdroid_summary">https://www.github.com/crdroidandroid</string>
+    <string name="thanksto_category_team_ResurrectionRemix">ResurrectionRemix</string>
+    <string name="thanksto_category_team_ResurrectionRemix_summary">https://github.com/ResurrectionRemix</string>
+    <string name="thanksto_category_team_aicp">AICP</string>
+    <string name="thanksto_category_team_aicp_summary">https://github.com/aicp</string>
+    <string name="thanksto_category_team_omnirom">omnirom</string>
+    <string name="thanksto_category_team_omnirom_summary">http://www.omnirom.org</string>
+    <string name="thanksto_category_team_aospa">AOSPA</string>
+    <string name="thanksto_category_team_aospa_summary">http://aospa.co/</string>
+    <string name="thanksto_category_team_temasek">TEMASEK</string>
+    <string name="thanksto_category_team_temasek_summary">https://github.com/temasek</string>
+    
+    <!-- developer -->
+    <string name="thanksto_category_developer_title">developer</string>
+    
+    <!-- developer LIST -->
+    <string name="thanksto_category_developer_ckh469">ckh469</string>
+    <string name="thanksto_category_developer_ckh469_summary">https://github.com/ckh469</string>
+    <string name="thanksto_category_developer_themuppets">TheMuppets</string>
+    <string name="thanksto_category_developer_themuppets_summary">https://github.com/TheMuppets</string>
+
+</resources>

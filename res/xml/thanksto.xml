@@ -1,0 +1,107 @@
+0<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2015 crDroid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/thanks_to_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:title="@string/thanks_to_title"
+        android:summary="@string/thanks_to_title_summary"
+        android:selectable="false" />
+
+        <PreferenceCategory
+             android:key="thanksto_category_team_title"
+             android:title="@string/thanksto_category_team_title" >
+
+             <Preference
+                 android:key="thanksto_category_team_cyanogenmod"
+                 android:title="@string/thanksto_category_team_cyanogenmod"
+                 android:summary="@string/thanksto_category_team_cyanogenmod_summary"
+                 android:selectable="false" />
+             
+             <Preference
+                 android:key="thanksto_category_team_blissrom"
+                 android:title="@string/thanksto_category_team_blissrom"
+                 android:summary="@string/thanksto_category_team_blissrom_summary"
+                 android:selectable="false" />
+             
+             <Preference
+                 android:key="thanksto_category_team_cyanpop"
+                 android:title="@string/thanksto_category_team_cyanpop"
+                 android:summary="@string/thanksto_category_team_cyanpop_summary"
+                 android:selectable="false" />
+             
+             <Preference
+                 android:key="thanksto_category_team_crdroid"
+                 android:title="@string/thanksto_category_team_crdroid"
+                 android:summary="@string/thanksto_category_team_crdroid_summary"
+                 android:selectable="false" />
+             
+             <Preference
+                 android:key="thanksto_category_team_ResurrectionRemix"
+                 android:title="@string/thanksto_category_team_ResurrectionRemix"
+                 android:summary="@string/thanksto_category_team_ResurrectionRemix_summary"
+                 android:selectable="false" />
+             
+             <Preference
+                 android:key="thanksto_category_team_aicp"
+                 android:title="@string/thanksto_category_team_aicp"
+                 android:summary="@string/thanksto_category_team_aicp_summary"
+                 android:selectable="false" />
+             
+             <Preference
+                 android:key="thanksto_category_team_omnirom"
+                 android:title="@string/thanksto_category_team_omnirom"
+                 android:summary="@string/thanksto_category_team_omnirom_summary"
+                 android:selectable="false" />
+                 
+            <Preference
+                 android:key="thanksto_category_team_aospa"
+                 android:title="@string/thanksto_category_team_aospa"
+                 android:summary="@string/thanksto_category_team_aospa_summary"
+                 android:selectable="false" />
+                 
+           <Preference
+                 android:key="thanksto_category_team_temasek"
+                 android:title="@string/thanksto_category_team_temasek"
+                 android:summary="@string/thanksto_category_team_temasek_summary"
+                 android:selectable="false" />
+
+        </PreferenceCategory>
+        
+        <PreferenceCategory
+            android:key="thanksto_category_developer_title"
+            android:title="@string/thanksto_category_developer_title" >
+            
+            <Preference
+            android:key="thanksto_category_developer_ckh469"
+            android:title="@string/thanksto_category_developer_ckh469"
+            android:summary="@string/thanksto_category_developer_ckh469_summary"
+            android:selectable="false" />
+            
+            <Preference
+            android:key="thanksto_category_developer_themuppets"
+            android:title="@string/thanksto_category_developer_themuppets"
+            android:summary="@string/thanksto_category_developer_themuppets_summary"
+            android:selectable="false" />
+            
+        </PreferenceCategory>
+
+</PreferenceScreen>

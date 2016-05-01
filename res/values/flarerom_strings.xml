@@ -39,5 +39,9 @@
     <!-- Devices and Maintainers -->
     <string name="device_maintainers_title">Devices and Maintainers</string>
     <string name="device_maintainers_title_summary">List of Supported devices by FlareROM maintainers</string>
+    
+    <!-- Thanks to -->
+    <string name="thanks_to_title">Credits</string>
+    <string name="thanks_to_title_summary">FlareROM the contributors to the production.</string>
 
 </resources>
