@@ -31,12 +31,6 @@
             style="?android:preferenceInformationStyle"
             android:title="@string/mod_version"
             android:summary="@string/mod_version_default" />
-            
-        <!-- Change Log -->
-        <PreferenceScreen android:key="changelog"
-            android:title="@string/changelog_title"
-            android:summary="@string/changelog_title_summary"
-            android:fragment="com.android.settings.flarerom.ChangeLog" />
 
         <!-- Bliss Extra Info -->
         <PreferenceScreen android:key="extrainfo"
@@ -46,12 +40,6 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.bliss.extrainfo.MainActivity" />
         </PreferenceScreen>
-
-        <!-- FlareROM Share -->
-        <Preference
-            android:key="share"
-            android:title="@string/share_flarerom_title"
-            android:summary="@string/share_flarerom_summary" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
