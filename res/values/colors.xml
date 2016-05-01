@@ -19,7 +19,7 @@
     <color name="red">#F00</color>
     <color name="blue">#00F</color>
 
-    <color name="material_empty_color_light">#FFCED7DB</color>
+    <color name="material_empty_color_light">#ffffff</color>
 
     <color name="memory_used">#F00</color>
     <color name="memory_avail">@color/material_empty_color_light</color>
@@ -37,10 +37,10 @@
     <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
     <color name="crypt_keeper_password_background">#70606060</color>
 
-    <color name="divider_color">#20ffffff</color>
-    <color name="title_color">@android:color/holo_blue_light</color>
-    <color name="setup_divider_color_dark">#33ffffff</color>
-    <color name="setup_divider_color_light">#33000000</color>
+    <color name="divider_color">#ffffff</color>
+    <color name="title_color">#ffffff</color>
+    <color name="setup_divider_color_dark">#ffffff</color>
+    <color name="setup_divider_color_light">#ffffff</color>
     <color name="setup_lock_pattern_view_regular_color_dark">#ffbdbdbd</color>
     <color name="setup_lock_pattern_view_regular_color_light">@color/lock_pattern_view_regular_color</color>
     <color name="setup_lock_pattern_view_success_color_dark">#ff84ffff</color>
@@ -77,7 +77,7 @@
     <color name="switchbar_background_color">#95a5a6</color>
     <color name="switch_accent_color">#9F9F74</color>
 
-    <color name="wifi_divider">#ffe0e0e0</color>
+    <color name="wifi_divider">#ffffff</color>
     <color name="sim_noitification">@*android:color/material_deep_teal_500</color>
     <color name="regulatory_text_color">#000</color>
 
