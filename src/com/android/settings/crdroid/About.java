@@ -55,7 +55,7 @@ public class About extends SettingsPreferenceFragment {
         if (preference == mSourceUrl) {
             launchUrl("https://github.com/FlareROM");
         } else if (preference == mGoogleUrl) {
-            launchUrl("https://flarerom.pe.hu");
+            launchUrl("http://flarerom.pe.hu");
         } else if (preference.getKey().equals(KEY_CRDROID_SHARE)) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_SEND);
