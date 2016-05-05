@@ -43,7 +43,7 @@ limitations under the License.
     <color name="text_color_translucent_white">#B3FFFFFF</color>
     <color name="text_color_white">@android:color/white</color>
     <!-- Dashboard background color -->
-    <color name="dashboard_category_background_color">#F5F5F5</color>
+    <color name="dashboard_category_background_color">#ffffff</color>
     <color name="dashboard_background_color">#ffffff</color>
     <!-- Data usage chart color -->
     <color name="data_usage_stroke_color">#00000000</color>
@@ -109,7 +109,7 @@ limitations under the License.
     <color name="app_name_text_color">@color/text_color_white</color>
 
     <!-- Dashboard Category Title Background Color -->
-    <color name="dashboard_category_title_bg_color">@android:color/transparent</color>
+    <color name="dashboard_category_title_bg_color">#b3c3c4</color>
 
     <!-- Text Color for single button panel. See: app storage view -->
     <color name="single_button_panel_button_text_color">@color/text_color_white</color>
