@@ -30,12 +30,12 @@
     <string name="crdroid_source_summary">http://www.github.com/FlareROM</string>
     <string name="crdroid_google_plus_title">Homepage</string>
     <string name="crdroid_google_plus_summary">http://www.flarerom.oa.to</string>
-    
+
     <!-- Change Log -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_title_summary">View recent changes in ROM</string>
     <string name="changelog_error">Unable to load changelog</string>
-    
+
     <!-- Devices and Maintainers -->
     <string name="device_maintainers_title">Devices and Maintainers</string>
     <string name="device_maintainers_title_summary">List of Supported devices by FlareROM maintainers</string>
@@ -43,11 +43,14 @@
     <!-- Thanks to -->
     <string name="thanks_to_title">Credits</string>
     <string name="thanks_to_title_summary">FlareROM the contributors to the production.</string>
-	
+
     <!-- Share FlareROM -->  
     <string name="share_bliss_title">Share FlareROM</string>  
     <string name="share_bliss_summary">Let others know about FlareROM</string>  
     <string name="share_message">Check out what #FlareROM is all about @ http://flarerom.oa.to</string>  
     <string name="share_chooser_title">Share FlareROM</string>  
+
+    <!-- supersu -->
+    <string name="supersu_title">SuperSU</string>
 
 </resources>
