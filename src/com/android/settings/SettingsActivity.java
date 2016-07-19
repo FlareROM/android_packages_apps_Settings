@@ -1337,6 +1337,16 @@ public class SettingsActivity extends Activity
 
                     if (!getPackageManager().hasSystemFeature(
                             CMContextConstants.Features.WEATHER_SERVICES) || !showWeatherMenu) {
+                         removeTile = true;
+                    }
+                } else if (id == R.id.supersu_settings) {
+                    // Embedding into Settings is supported from SuperSU v1.85 and up
+                    boolean supported = false;
+                    try {
+                        supported = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
+                    } catch (PackageManager.NameNotFoundException e) {
+                    }
+                    if (!supported) {
                         removeTile = true;
                     }
                 }
@@ -1354,7 +1364,7 @@ public class SettingsActivity extends Activity
         }
         addExternalTiles(target);
     }
-
+ 
     private void addExternalTiles(List<DashboardCategory> target) {
         Map<Pair<String, String>, DashboardTile> addedCache =
                 new ArrayMap<Pair<String, String>, DashboardTile>();
