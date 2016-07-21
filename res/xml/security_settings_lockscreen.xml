@@ -44,6 +44,4 @@
             android:fragment="com.android.settings.temasek.LockscreenWallpaper">
         </PreferenceScreen>
 
-    </PreferenceCategory>
-
 </PreferenceScreen>

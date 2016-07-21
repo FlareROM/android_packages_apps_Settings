@@ -16,6 +16,7 @@
 
 package com.android.settings.flarerom;
 
+import com.android.internal.logging.MetricsLogger;
 import android.os.Bundle;
 import android.content.res.Resources;
 import android.preference.Preference;
@@ -24,10 +25,10 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
-public class Devices extends SettingsPreferenceFragment implements
+public class thanksto extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String TAG = "Devices";
+    private static final String TAG = "thanksto";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -42,5 +43,10 @@ public class Devices extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         return false;
+    }
+            
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.DISPLAY;
     }
 }

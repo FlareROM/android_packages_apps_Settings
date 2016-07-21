@@ -25,7 +25,7 @@
         <!-- Changelog -->
         <PreferenceScreen
             android:key="changelog"
-            android:title="@string/changelog_crdroid_title"
+            android:title="@string/changelog_title"
             android:fragment="com.android.settings.flarerom.ChangeLog" />
 
         <!-- Devices and Maintainers -->
@@ -33,6 +33,12 @@
             android:key="devices"
             android:title="@string/device_maintainers_title"
             android:fragment="com.android.settings.crdroid.Devices" />
+            
+        <!-- Thanks To -->
+        <PreferenceScreen
+            android:key="thanksto"
+            android:title="@string/thanks_to_title"
+            android:fragment="com.android.settings.flarerom.thanksto" />
 
         <!-- crDroid Share -->
         <Preference
