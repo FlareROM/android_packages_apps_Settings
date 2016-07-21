@@ -21,7 +21,7 @@
     <!-- Share FlareROM -->
     <string name="share_crdroid_title">Share FlareROM</string>
     <string name="share_crdroid_summary">Let others know about FlareROM</string>
-    <string name="share_message">FlareROM HOMEPAGE : http://www.flarerom.pe.hu</string>
+    <string name="share_message">FlareROM HOMEPAGE : http://www.flarerom.oa.to</string>
     <string name="share_chooser_title">Share FlareROM</string>
 
     <!-- Sites FlareROM -->
@@ -29,7 +29,7 @@
     <string name="crdroid_source_title">Github</string>
     <string name="crdroid_source_summary">http://www.github.com/FlareROM</string>
     <string name="crdroid_google_plus_title">Homepage</string>
-    <string name="crdroid_google_plus_summary">http://www.flarerom.pe.hu</string>
+    <string name="crdroid_google_plus_summary">http://www.flarerom.oa.to</string>
     
     <!-- Change Log -->
     <string name="changelog_title">Changelog</string>
@@ -47,7 +47,7 @@
     <!-- Share FlareROM -->  
     <string name="share_bliss_title">Share FlareROM</string>  
     <string name="share_bliss_summary">Let others know about FlareROM</string>  
-    <string name="share_message">Check out what #FlareROM is all about @ http://flarerom.pe.hu</string>  
+    <string name="share_message">Check out what #FlareROM is all about @ http://flarerom.oa.to</string>  
     <string name="share_chooser_title">Share FlareROM</string>  
 
 </resources>

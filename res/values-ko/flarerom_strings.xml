@@ -651,7 +651,7 @@
     <!-- Share FlareROM -->
     <string name="share_crdroid_title">FlareROM 공유</string>
     <string name="share_crdroid_summary">FlareROM을 알려주세요</string>
-    <string name="share_message">FlareROM HOMEPAGE : http://www.flarerom.pe.hu</string>
+    <string name="share_message">FlareROM HOMEPAGE : http://www.flarerom.oa.to</string>
     <string name="share_chooser_title">FlareROM 공유</string>
     
     <!-- Sites FlareROM -->
@@ -659,7 +659,7 @@
     <string name="crdroid_source_title">Github</string>
     <string name="crdroid_source_summary">http://www.github.com/FlareROM</string>
     <string name="crdroid_google_plus_title">Homepage</string>
-    <string name="crdroid_google_plus_summary">http://www.flarerom.pe.hu</string>
+    <string name="crdroid_google_plus_summary">http://www.flarerom.oa.to</string>
     
     <!-- Change Log -->
     <string name="changelog_title">체인지로그</string>

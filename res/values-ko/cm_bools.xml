@@ -19,7 +19,7 @@
     <!-- Share FlareROM -->
     <string name="share_flarerom_title">FlareROM 공유</string>
     <string name="share_flarerom_summary">Let others know about FlareROM</string>
-    <string name="share_message">FlareROM 사이트 : http://www.flarerom.pe.hu</string>
+    <string name="share_message">FlareROM 사이트 : http://www.flarerom.oa.to</string>
     <string name="share_chooser_title">FlareROM 공유</string>
 
 </resources>
