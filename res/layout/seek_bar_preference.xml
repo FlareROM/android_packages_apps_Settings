@@ -4,18 +4,18 @@
     android:id="@android:id/widget_frame"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:gravity="center_vertical"
     android:paddingStart="?android:attr/listPreferredItemPaddingStart"
     android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-    >
+    android:background="?android:attr/selectableItemBackground" >
 
     <TextView android:id="@android:id/title"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
             android:textAppearance="?android:attr/textAppearanceListItem" />
 
     <TextView android:id="@android:id/summary"
@@ -36,8 +36,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-                    android:textColor="?android:attr/textColorSecondary" />
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <TextView android:id="@+id/seekBarPrefValue"
                     android:layout_centerInParent="true"
@@ -45,16 +44,15 @@
                     android:layout_height="wrap_content"
                     android:layout_toLeftOf="@id/seekBarPrefUnitsRight"
                     android:gravity="right"
-                    android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-                    android:textColor="?android:attr/textColorSecondary" />
+                    android:paddingRight="5dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <TextView android:id="@+id/seekBarPrefUnitsLeft"
                     android:layout_centerInParent="true"
                     android:layout_toLeftOf="@id/seekBarPrefValue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-                    android:textColor="?android:attr/textColorSecondary" />
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <LinearLayout android:id="@+id/seekBarPrefBarContainer"
                     android:layout_centerInParent="true"
